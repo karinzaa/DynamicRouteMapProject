@@ -1,6 +1,6 @@
 ![Imgur](https://imgur.com/34L7bAP.png)
-|Other Project|[![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)|
-|----|----|
+|Other Project|[![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)|`Alpha`|
+|----|----|----|
 
 # DynamicRouteMapProject
 
