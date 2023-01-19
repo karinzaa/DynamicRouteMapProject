@@ -45,7 +45,7 @@ lif1 {
 lif2 {
   display: block;
   float: right;
-  width: 25%;
+  width: 50%;
   padding: 0px 0px;
   background-color: #a10000;
 }
@@ -587,6 +587,7 @@ html,body {
 	border-left: 45px solid #a10000;
   border-bottom: 40px solid transparent;
   position:relative;
+  animation: ripple 0.15s linear infinite 0s;
 }
 
 .textt1 {

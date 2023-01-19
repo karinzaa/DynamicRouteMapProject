@@ -121,7 +121,8 @@ li2 {
   float: center;
   padding: 40px 120px;
   width: 55%;
-  background-color: rgb(8, 0, 56);
+  border-radius: 10px;
+  background-color: rgb(15, 4, 39);
   
 }
 li2 li0 {
@@ -138,6 +139,7 @@ li3 {
   padding: 10px 20px;
   float: center;
   width: 20%;
+  border-radius: 10px;
   background-color: #db821d;
 }
 
@@ -145,16 +147,17 @@ li4 {
   left: 100%;
   float:right;
   display: block;
-  padding: 50px 50px;
+  padding: 55px 55px;
   width: 35%;
-  background-color: rgb(8, 0, 56);
+  border-radius: 10px;
+  background-color: rgb(15, 4, 39);
 }
 li4 li1 {
   display: flex;
   float: left;
   padding: 0px 0px;
   width: 40%;
-  background-color: rgb(8, 0, 56);
+  background-color: rgb(15, 4, 39);
   
 }
 
@@ -197,11 +200,13 @@ li2 h2 {
 li2 h3 {
   display: block;
   font-size: 20px;
-  color: rgb(255, 255, 255);
+  color: #ffffff;
   text-align: center;
-  padding: 10px 2px;
+  padding: 10px 0px;
   text-decoration: none;
-  border: 2px solid #db821d;
+  background-color:rgb(15, 4, 39);
+  border-radius: 10px;
+  border: 5px solid #db821d;
 }
 
 .ripple {
@@ -280,11 +285,13 @@ li3 h3 {
 li4 h1 {
   display: block;
   font-size: 20px;
-  color: rgb(255, 255, 255);
+  color: #ffffff;
   text-align: center;
   padding: 10px 0px;
   text-decoration: none;
-  border: 2px solid #db821d;
+  background-color:rgb(15, 4, 39);
+  border-radius: 10px;
+  border: 5px solid #db821d;
 }
 li4 h2 {
   display: block;

@@ -2,9 +2,14 @@
 	"folders": [
 		{
 			"path": "."
+		},
+		{
+			"name": "Lab01",
+			"path": "..\\..\\..\\Documents\\PlatformIO\\Projects\\Lab01"
 		}
 	],
 	"settings": {
-		"liveServer.settings.port": 5505
+		"liveServer.settings.port": 5505,
+		"liveServer.settings.multiRootWorkspaceName": "SRTDarkRedLine"
 	}
 }

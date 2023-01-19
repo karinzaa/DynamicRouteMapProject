@@ -12,7 +12,7 @@
     <link href="https://fonts.googleapis.com/css?family=Niramit:400,700&display=swap" rel="stylesheet">
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
     <script src="bodyswapscript.js"></script>
-  <link rel="stylesheet" href="stylesStationRN01.css">
+  <link rel="stylesheet" href="stylesStationRN02.css">
   <link rel="stylesheet" href="animate.css">
   <link rel="icon" href="RAILWAYLOGO2019.png">
       <script src="wow.min.js"></script>
@@ -21,13 +21,13 @@
       <body onload="startTime()">
 </head>
 <body id="test">
-    <ul class="wow animated fadeInDown" data-wow-delay="0.2s">
+    <ul class="animated fadeInDown">
         <li1><img class="animated fadeInLeft delay-1s" src="RAILWAYLOGO2019.png"></img><h1 class="animated fadeInDown delay-1s">สายสีเเดงเข้ม</h1> 
           <h2 class="animated fadeInDown delay-1s">DarkRed Line</h2></li1>
         <li2 class=" animated fadeInDown delay-0.75s">
-            <h3 class=" animated fadeInDown delay-1s">เชื่อมต่อกับ | Connecting With</h3> 
-            <li0> <img class="animated fadeInDown delay-1s" src="LRLineLA.png"></img>
-                <img class="animated fadeInDown delay-1s" src="BLLineLA.png"></img></li0>
+            <h1 class=" animated fadeInDown delay-1s">⚠️</h3> 
+            <h2 class="animated fadeInDown delay-1s">โปรดระวังช่องว่างระหว่างตัวรถ</h2>
+          <h3 class="animated fadeInDown delay-1s">Please mind the gap.</h3>
          </li2>
         <li3 class=" animated zoomIn delay-0.75s">
             <h1 class="animated fadeInDown delay-1s">ประตูเปิดด้านนี้</h1>
@@ -35,7 +35,7 @@
             <h3 class="animated bounceIn delay-1s">▮▮</h3>
         </li3>
         <li4 class="animated fadeInDown delay-0.75s">
-          <h1 class="animated fadeInDown delay-1s"> ปลายทาง | Destination</h1>
+          <h1 class="animated fadeInDown delay-1s">ปลายทาง | Destination</h1>
           <li1> <div class="rippleter animated fadeInDown  delay-1s">RN10</div> </li1>
           <h2 class="animated fadeInDown delay-1s">รังสิต</h2>
           <h3 class="animated fadeInDown delay-1s">Rangsit</h3>
@@ -43,13 +43,13 @@
       </ul>
    
 
-      <div class="animated fadeInLeft delay-1s textt3" >ขณะนี้กำลังจอดที่
+      <div class="animated fadeInLeft delay-1s textt3">ขณะนี้กำลังจอดที่
           <div class="animated fadeInleft delay-1s texte3">Now stopping at</div>
       </div>
 
-      <div class="ripple2">RN01</div>
-      <div class="textt2 animated zoomInUp delay-1s">กลางบางซื่อ
-    <div class="texte2 animated zoomInUp delay-1s">Bang Sue Central</div>
+      <div class="ripple2">RN02</div>
+      <div class="textt2 animated zoomInUp delay-1s">จตุจักร
+    <div class="texte2 animated zoomInUp delay-1s">Chatuchak</div>
       </div>
 
 </body >
@@ -65,47 +65,3 @@
  </lif3>  
   </footer>
 </html>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
-<script src="https://d3js.org/d3.v6.min.js"></script>
-<script type="text/javascript">
-      
-
-      // navigation starts here
-      $("#toggle").click(function () {
-            $(this).toggleClass('on');
-            $("#resize").toggleClass("active");
-      });
-
-      $("#resize ul li a").click(function () {
-            $(this).toggleClass('on');
-            $("#resize").toggleClass("active");
-      });
-
-      $(".close-btn").click(function () {
-            $(this).toggleClass('on');
-            $("#resize").toggleClass("active");
-      });
-
-      // navigation ends here
-
-      // nav animation
-
-      TweenMax.from("#brand", 1, {
-            delay: 0.4,
-            y: 10,
-            opacity: 0,
-            ease: Expo.easeInOut
-      })
-
-      TweenMax.staggerFrom("#menu li a", 1, {
-            delay: 0.4,
-            opacity: 0,
-            ease: Expo.easeInOut
-      }, 0.1);
-
-      // nav animation ends
-
-      new WOW().init();
-
