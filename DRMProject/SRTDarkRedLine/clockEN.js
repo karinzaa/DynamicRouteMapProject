@@ -3,5 +3,5 @@ function refreshTime() {
   var formattedString = dateString.replace(", ", " ");
   document.getElementById("txt").innerHTML = formattedString;
 }
-
+ 
 setInterval(refreshTime, 1000);
